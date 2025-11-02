@@ -8,7 +8,7 @@ public class NumWords {
 		num = num/10;
 		int hundreds = num%10;
 
-		System.err.printf("%d hundreds, %d tens, and %d ones.",
+		System.out.printf("%d hundreds, %d tens, and %d ones.",
 		hundreds, tens, units);
 
 	}
